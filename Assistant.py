@@ -1,3 +1,4 @@
+#код Бабошина максима
 class Assistant():
     def __init__(self, name, position):
         self.name = name
