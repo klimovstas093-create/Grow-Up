@@ -1,5 +1,5 @@
-import Assistant
-import Vegetable
+from Assistant import Assistant
+from Vegetable import Vegetable
 import time
 
 piople = Assistant()
@@ -9,7 +9,6 @@ Tomato = Vegetable()
 Potato = Vegetable()
 
 print('Симуляция рабочего дня началась.')
-
 
 Time = ''
 deistvie = ''
