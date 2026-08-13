@@ -1,0 +1,22 @@
+class Vegeteble():
+    def __init__(self, name, water, nutrients, light):
+        self.name = name
+        self.water = water 
+        self.nutrients = nutrients
+        self.light = light
+
+
+    def print_info(self):
+        print('вид образца:', self.name)
+        print('Обеспеченность водой:', self.water)
+        print('Обеспеченность питательными веществами:', self.nutrients)
+        print('Обеспеченность светом:', self.light)
+
+
+    def check_stste(self, required_water, required_nutrients, required_light):
+        if (self.water >= required_water and self.nutrients >= required_nutrients and self.light >= required_light):
+            print('Результат: образец выжил')
+            return True
+        else:
+            print('Результат: образец погиб')  
+            return False  
